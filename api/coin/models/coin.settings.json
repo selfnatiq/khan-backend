@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "coins",
+  "info": {
+    "name": "Coin"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "acronym": {
+      "type": "string"
+    },
+    "logo": {
+      "type": "string"
+    }
+  }
+}
