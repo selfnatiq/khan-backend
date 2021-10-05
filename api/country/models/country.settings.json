@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "countries",
+  "info": {
+    "name": "Country"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "alpha2Code": {
+      "type": "string",
+      "required": false,
+      "unique": true
+    },
+    "alpha3Code": {
+      "type": "string",
+      "required": false,
+      "unique": true
+    },
+    "capital": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "region": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    }
+  }
+}
