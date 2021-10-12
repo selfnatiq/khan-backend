@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cities",
+  "info": {
+    "name": "City",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "cityId": {
+      "type": "integer",
+      "required": false,
+      "unique": false
+    },
+    "cityName": {
+      "type": "string",
+      "required": false
+    },
+    "stateCode": {
+      "type": "string",
+      "required": false
+    },
+    "countryCode": {
+      "type": "string",
+      "required": false
+    },
+    "country": {
+      "type": "string",
+      "required": false
+    }
+  }
+}
